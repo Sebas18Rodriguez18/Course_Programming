@@ -1,0 +1,20 @@
+body {
+    background: black;
+}
+
+div {
+    background: red;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+div {
+    /* border-width: 3px;
+    border-color: rgb(238, 0, 255);
+    border-style: solid; */
+    border-radius: 4px;
+    border: 3px solid pink;
+    border-end-end-radius: 30% 30px;
+    border-top-left-radius: 30% 30px;
+}

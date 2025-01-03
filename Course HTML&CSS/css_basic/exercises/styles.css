@@ -1,0 +1,38 @@
+.login {
+    background: rgb(0, 0, 0);
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 45px;
+    color: whitesmoke;
+    margin-top: 0;
+}
+
+.info-login {
+    
+    background: rgb(11, 11, 11);
+    margin-top: auto;
+    color: whitesmoke;
+    margin-top: 15px;
+    border-color: whitesmoke;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    padding: 1px 9px;
+}
+
+.button-login {
+    background: black;
+    color: whitesmoke;
+    margin: 25px;
+}
+
+.link {
+    color: whitesmoke;
+    margin-top: 0;
+    text-align: center;
+}

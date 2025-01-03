@@ -1,0 +1,12 @@
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: rgb(94, 66, 10);
+    margin: 20px;
+}
+.box2 {
+    width: 100px;
+    height: 100px;
+    background: #180a5e;
+    margin: 20px;
+}

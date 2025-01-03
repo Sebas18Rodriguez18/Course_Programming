@@ -1,0 +1,15 @@
+body {
+    background-color: green;
+}
+
+.box {
+    width: 200px;
+    height: 600px;
+    margin: 20px;
+    background-color: #f3e5;
+    position: absolute;
+    top: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrOgPU6qlBUEOCguTokIADQ-KndgC_Mjierw&s");
+    background-position: center;
+    background-size: cover;
+}
