@@ -1,0 +1,13 @@
+.formulario {
+    background: red;
+    padding: 10px;
+}
+
+.formulario_input {
+    padding: 10px;
+}
+
+.box {
+    background: blue;
+    margin: 8%;
+}
