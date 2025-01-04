@@ -1,5 +1,5 @@
-# First-Title
-Mi primer repositorio en github
+# Course of programming
+Course of programming seeing Front-End (HTML, CSS) and Back-End (JavaScript, Python, SQL)
 
-## Descripcion
-Este es un repo por el curso de soydalto.
+## Description
+Este es un curso de programación viendo los distintos cursos e informacion que puede brindar el youtuber o streaming SoyDalto. @soydalto
