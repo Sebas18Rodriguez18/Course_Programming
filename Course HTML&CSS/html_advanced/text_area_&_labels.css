@@ -26,12 +26,7 @@ form {
     border-radius: 8px;
 }
 
-.form-input {
-    padding: 6px 20px;
-    scrollbar-width: 16px;
-}
-
-input, textarea {
+.inputs {
     min-width: 95%;
     margin: 8px;
     box-sizing: border-box;
@@ -48,4 +43,27 @@ textarea {
     min-width: 95%;
     resize: none;
     min-height: 100px;    
+}
+
+label {
+    margin: 10px;
+    font-size: 0.9em;
+    line-height: 2;
+}
+.checbox {
+    width: auto;
+    margin-top: auto;
+}
+
+.button {
+    min-width: 95%;
+    margin: 8px;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border-left: 1px solid #666;
+    box-shadow: 0px 0px 15px #0001;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #ffff;
 }
