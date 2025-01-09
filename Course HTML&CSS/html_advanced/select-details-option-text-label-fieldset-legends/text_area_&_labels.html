@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UFT-8">
+    <title>Textarea y Labels</title>
+    <link rel="stylesheet" href="text_area_&_labels.css">
+</head>
+
+<body>
+    <form>
+        <h2>Formulario de Contacto</h2>
+
+        <!--SIMPLE INPUTS-->
+        <fieldset>
+            <legend>INFORMACION PERSONAL</legend>
+            <div class="form_input">
+            <label for="name">Nombre Completo</label>
+            <input class="inputs" type="text" placeholder="Jonh Doe" id="name">
+        </div>
+        <div class="form_input">
+            <label for="email">Email</label>
+            <input class="inputs" type="email" placeholder="ejemplo@gmail.com" id="email">
+        </div>
+        </fieldset>
+
+        <!--SELECT & OPTION-->
+        <div class="form_input">
+            <label>Tipos de Usuario
+                <select name="type-of-user" class="inputs">
+                    <option value="user1">Seguidor/a</option>
+                    <option value="user2">Empresa</option>
+                    <option value="user3">Otros</option>
+                </select>
+            </label>
+        </div>
+
+        <!--DATALIST & OPTION-->
+        <div class="form_input">
+            <label>Referente
+                <input list="referente" name="referente" class="inputs">
+                <datalist id="referente" name="type-of-user" class="inputs">
+                    <option value="Sebastian">Desarrollador</option>
+                    <option value="Una Empresa">Microsoft</option>
+                    <option value="Un amigo">Elsa Zapato</option>
+            </select>
+            </label>
+        </div>
+
+        <!--TEXTAREA-->
+        <div class="form_input">
+            <label for="message">Comentario</label>
+            <textarea class="inputs" placeholder="Escribe un comentario..." id="message"></textarea>
+        </div>
+        <div class="form_input">
+            <label>Acepto los terminos y condiciones
+                <input type="checkbox" class="checbox">
+            </label>
+        </div>
+        <div class="form_input">
+            <input class="button" type="submit" value="Enviar">
+        </div>
+    </form>
+</body>
+
+</html>

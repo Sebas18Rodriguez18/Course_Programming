@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #eee;
-    background-color: #222;
+    background: linear-gradient(#222, #234);
 }
 
 h2 {
@@ -13,6 +13,7 @@ h2 {
     font-weight: 100;
     font-size: 22px;
     padding: 10px;
+    color: rgb(30, 100, 75);
 }
 
 form {
@@ -24,6 +25,7 @@ form {
     box-shadow: 0px 0px 55px #fff2;
     margin-top: 50px;
     border-radius: 8px;
+    margin-bottom: 40px;
 }
 
 .inputs {
@@ -49,6 +51,7 @@ label {
     margin: 10px;
     font-size: 0.9em;
     line-height: 2;
+    color: rgb(30, 100, 75);
 }
 .checbox {
     width: auto;
@@ -65,5 +68,20 @@ label {
     box-shadow: 0px 0px 15px #0001;
     background-color: transparent;
     border-radius: 4px;
-    color: #ffff;
+    color: rgb(30, 100, 75);
+}
+
+option {
+    background-color: #222;
+}
+
+fieldset{
+    margin: 12px;
+    color: rgb(30, 100, 75);
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0 6px;
 }
