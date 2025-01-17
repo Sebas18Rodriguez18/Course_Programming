@@ -1,0 +1,17 @@
+body {
+     margin: 0;
+}
+
+div {
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+a {
+    background-color: red;
+    color: #fff;
+    display: block;
+    border: 3px solid #000;
+    margin: 20px;
+    padding: 20px;
+}
