@@ -6,8 +6,8 @@ valorGauss = 3
 valorKernel = 5
 
 #Cargar Imagen
-originalOne = cv2.imread(r'c:\Users\Sebas\repos\Course_Programming\Course of Python\Scan\monedas.jpg')
-originalTwo = cv2.imread(r'c:\Users\Sebas\repos\Course_Programming\Course of Python\Scan\monedassoles.jpg')
+originalOne = cv2.imread(r'c:\Users\Sebas\repos\Course_Programming\Course of Python\Scan\monedas.jpg' o 'nombre de la imagen dentro de la misma carpeta')
+originalTwo = cv2.imread(r'c:\Users\Sebas\repos\Course_Programming\Course of Python\Scan\monedassoles.jpg' o 'nombre de la imagen dentro de la misma carpeta')
 
 #Filtros de Imagen
 grey1 = cv2.cvtColor(originalOne, cv2.COLOR_BGR2GRAY)
